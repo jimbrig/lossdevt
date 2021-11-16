@@ -21,6 +21,10 @@ All notable changes to this project will be documented in this file.
 - Create cliff.toml for configuring git-cliff
 - Update git-cliff config file
 - Update DESCRIPTION
+- Update NAMESPACE and DESCRIPTION
+- Add github actions and initialize pkgdown action
+- Ignore pkgdown with gitignore
+- Update rbuildignore
 
 ### Data Preparation
 
@@ -34,6 +38,8 @@ All notable changes to this project will be documented in this file.
 - Function documentation for utils.R
 - Dataset documentation script
 - Create README.md
+- Add function man pages for new loss data functions
+- Add pkgdown documentation site
 
 ### Functions
 
