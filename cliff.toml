@@ -40,6 +40,13 @@ conventional_commits = true
 commit_parsers = [
     { message = "^feat", group = "Features"},
     { message = "^config", group = "Configuration"},
+    { message = "^setup", group = "Setup"},
+    { message = "^bug", group = "Bug Fixes"},
+    { message = "^data", group = "Data Preparation"},
+    { message = "^database", group = "Database"},
+    { message = "^docker", group = "Docker"},
+    { message = "^build", group = "Build and Deploy"},
+    { message = "^funs", group = "Functions"},
     { message = "^fix", group = "Bug Fixes"},
     { message = "^doc", group = "Documentation"},
     { message = "^perf", group = "Performance"},
