@@ -14,5 +14,11 @@ usethis::use_roxygen_md()
 usethis::use_package_doc()
 
 usethis::use_testthat()
-usethis::use_data_raw("claims-dataprep")
+usethis::use_data_raw("claims")
+usethis::use_data_raw("exposures")
+usethis::use_data_raw("industry")
+
 usethis::use_vignette("A-actuarial-loss-reserving-overview", "Actuarial Loss Reserving Overview")
+usethis::use_vignette("B-simulation-of-claims-data", "Simulation of Claims Data")
+usethis::use_vignette("C-triangles", "Loss Development Triangles")
+usethis::use_vignette("D-ldfs", "Loss Development Factors")
