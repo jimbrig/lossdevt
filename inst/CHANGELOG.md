@@ -33,6 +33,7 @@ All notable changes to this project will be documented in this file.
 - Add Notes.md to inst
 - Function documentation for utils.R
 - Dataset documentation script
+- Create README.md
 
 ### Functions
 
