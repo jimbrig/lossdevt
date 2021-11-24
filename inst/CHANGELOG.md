@@ -40,6 +40,15 @@ All notable changes to this project will be documented in this file.
 - Create README.md
 - Add function man pages for new loss data functions
 - Add pkgdown documentation site
+- Update CHANGELOG.md
+- Add URLs
+- DESCRIPTION
+- Cleanup pkgdocs and add dependencies.R script
+
+### Features
+
+- Begin outsourcing devtri dependency
+- Initialize interpolation of LDFs functionality
 
 ### Functions
 
