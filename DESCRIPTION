@@ -2,28 +2,23 @@ Package: lossdevt
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("Jimmy", "Briggs", , "jimmy.briggs@jimbrig.com.", role = c("aut", "cre"),
+    person("Jimmy", "Briggs", , "jimmy.briggs@jimbrig.com.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-7489-8787"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
-Depends: 
-    R (>= 2.10)
 Imports: 
+    devtri,
     dplyr,
     lubridate,
     purrr,
     rlang,
+    tibble,
     tidyr
 Suggests: 
     knitr,
     rmarkdown,
-    testthat (>= 3.0.0)
-VignetteBuilder: 
-    knitr
-Config/testthat/edition: 3
+    testthat
 Encoding: UTF-8
 Language: en-US
-LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
-URL: https://jimbrig.github.io/lossdevt

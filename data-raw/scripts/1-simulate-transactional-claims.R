@@ -13,7 +13,6 @@ library(lubridate)
 library(dplyr)
 library(tibble)
 library(randomNames)
-library(devtri)
 library(tidyr)
 
 source("R/utils.R")
